@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="FreeBook" />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg"/>
+    <link rel="shortcut icon" href="/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
+    <meta name="apple-mobile-web-app-title" content="FreeBook"/>
+    <link rel="manifest" href="/favicon/site.webmanifest"/>
 
     <title>Free Book - Personal Finance Basics</title>
 
@@ -28,7 +28,7 @@
                 </div>
                 <ul class="header__menu">
                     <li>
-                        <a class="link" href="#why">Why this book?</a>
+                        <a class="link" href="#about">About</a>
                     </li>
                     <li><a class="link" href="#get">Get the Book</a></li>
                     <li><a class="link" href="#reviews">Reviews</a></li>
@@ -55,8 +55,8 @@
                 </div>
                 <ul class="mobile-menu__list">
                     <li>
-                        <a class="mobile-menu__link" href="#why">
-                            Why this book?
+                        <a class="mobile-menu__link" href="#about">
+                            About
                         </a>
                     </li>
                     <li>
@@ -89,7 +89,8 @@
                             <span class="hero-section__title--mr-100">Free</span>
                         </h1>
                         <p class="hero-section__text">
-                            This book is a digital PDF file that you will receive at your email address immediately after completing the form.
+                            This book is a digital PDF file that you will receive at your email address immediately
+                            after completing the form.
                         </p>
                         <a href="#get" class="hero-section__button button button--link" type="button"
                         >Download for Free
@@ -97,22 +98,101 @@
                     </div>
                     <img class="hero-section__img"
                          src="public/images/book.jpg"
-                         alt="Mann mit Laptop"
+                         alt="Your New Book"
                     />
                 </div>
             </div>
         </div>
     </section>
-    <section class="advantages-section">
-        <div class="container">
-            <h2 class="visually-hidden">Наші переваги</h2>
-            <ul class="advantages-section__list">
-                <li class="advantages-section__item">Великий попит на ринку</li>
-                <li class="advantages-section__item">Доступні за бютжетом формати</li>
-                <li class="advantages-section__item">Досвідчена управлінська команда</li>
-            </ul>
+    <section id="about" class="section about-section">
+        <div class="container about-section__container">
+            <div class="about-section__content">
+                <h2 class="section__title">In this book, you’ll find:</h2>
+                <ul class="about-section__list">
+                    <li>• Simple steps to create a personal budget</li>
+                    <li>• Practical tips for building savings</li>
+                    <li>• Financial literacy basics for beginners</li>
+                </ul>
+            </div>
+            <img class="about-section__img" src="public/images/decor.png" alt="Circle books"/>
+        </div>
+        <div class="container about-section__second-content">
+            <h3 class="section__title section__title--centered about-section__subtitle">Why is this book for you?</h3>
+            <p class="about-section__text">If you're new to managing money or want to take control of your finances, this guide is a great place to
+                start. Whether you're aiming to save more, pay off debt, or simply understand where your money goes,
+                this book offers foundational knowledge to set you on the right path. It's written in clear, simple
+                language and packed with tips that you can apply immediately—no prior financial experience needed.</p>
         </div>
     </section>
+    <section class="contact-section section" id="contact-section">
+        <div class="container">
+            <div class="contact-section__container">
+                <div class="contact-section__form">
+                    <h2 class="contact-section__title section__title"
+                    >Приєднуйся до мережі пекарень</h2
+                    >
+                    <p> Заповни форму, щоб ми звʼязались з тобою! </p>
+                    <form name="contact-form" autocomplete="off">
+                        <div class="contact-section__form-field input">
+                            <label class="input__label visually-hidden" for="contact-name"
+                            >Ім’я</label
+                            >
+                            <input
+                                    class="input__control"
+                                    id="contact-name"
+                                    type="text"
+                                    name="contact-name"
+                                    placeholder="Ім’я"
+                                    required
+                            />
+                        </div>
+                        <div class="contact-section__form-field input">
+                            <label class="input__label visually-hidden" for="contact-tel"
+                            >Телефон</label
+                            >
+                            <input
+                                    class="input__control"
+                                    id="contact-tel"
+                                    name="contact-tel"
+                                    type="tel"
+                                    placeholder="Телефон"
+                                    required
+                            />
+                        </div>
+                        <div class="contact-section__form-field input">
+                            <label class="input__label visually-hidden" for="contact-email"
+                            >Електронна пошта</label
+                            >
+                            <input
+                                    class="input__control"
+                                    id="contact-email"
+                                    name="contact-email"
+                                    type="email"
+                                    placeholder="Електронна пошта"
+                                    required
+                            />
+                        </div>
+                        <button class="contact-section__button button" type="submit"
+                        >Замовити дзвінок
+                        </button>
+                        <p class="form-terms"
+                        >Натискаючи на кнопку я погоджуюсь з
+                            <a class="form-terms__link" href="#"> політикою конфіденційності</a>
+                        </p>
+                    </form>
+                </div>
+                <iframe
+                        class="contact-section__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699726799251!5m2!1suk!2sua"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
+            </div>
+        </div>
+    </section>
+
     <section class="traditions-section section" id="traditions-section">
         <div class="container">
             <div class="traditions-section__container">
@@ -318,74 +398,6 @@
                         <use href="../public/images/icons.svg#icon-arrow"></use>
                     </svg>
                 </button>
-            </div>
-        </div>
-    </section>
-    <section class="contact-section section" id="contact-section">
-        <div class="container">
-            <div class="contact-section__container">
-                <div class="contact-section__form">
-                    <h2 class="contact-section__title section__title"
-                    >Приєднуйся до мережі пекарень</h2
-                    >
-                    <p> Заповни форму, щоб ми звʼязались з тобою! </p>
-                    <form name="contact-form" autocomplete="off">
-                        <div class="contact-section__form-field input">
-                            <label class="input__label visually-hidden" for="contact-name"
-                            >Ім’я</label
-                            >
-                            <input
-                                    class="input__control"
-                                    id="contact-name"
-                                    type="text"
-                                    name="contact-name"
-                                    placeholder="Ім’я"
-                                    required
-                            />
-                        </div>
-                        <div class="contact-section__form-field input">
-                            <label class="input__label visually-hidden" for="contact-tel"
-                            >Телефон</label
-                            >
-                            <input
-                                    class="input__control"
-                                    id="contact-tel"
-                                    name="contact-tel"
-                                    type="tel"
-                                    placeholder="Телефон"
-                                    required
-                            />
-                        </div>
-                        <div class="contact-section__form-field input">
-                            <label class="input__label visually-hidden" for="contact-email"
-                            >Електронна пошта</label
-                            >
-                            <input
-                                    class="input__control"
-                                    id="contact-email"
-                                    name="contact-email"
-                                    type="email"
-                                    placeholder="Електронна пошта"
-                                    required
-                            />
-                        </div>
-                        <button class="contact-section__button button" type="submit"
-                        >Замовити дзвінок
-                        </button>
-                        <p class="form-terms"
-                        >Натискаючи на кнопку я погоджуюсь з
-                            <a class="form-terms__link" href="#"> політикою конфіденційності</a>
-                        </p>
-                    </form>
-                </div>
-                <iframe
-                        class="contact-section__map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699726799251!5m2!1suk!2sua"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                >
-                </iframe>
             </div>
         </div>
     </section>
