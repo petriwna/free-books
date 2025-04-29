@@ -1,0 +1,21 @@
+.logo {
+  gap: 5px;
+  align-items: center;
+  display: flex;
+  font-weight: 800;
+  font-size: 30px;
+  text-wrap: nowrap;
+
+  &__link {
+    color: var(--color-secondary);
+
+    &:hover {
+      color: var(--color-secondary);
+    }
+  }
+
+  &__img {
+    height: 24px;
+    width: 24px;
+  }
+}
