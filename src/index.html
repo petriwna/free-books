@@ -196,7 +196,7 @@
                     <p class="get-section__subtitle">Fill out the form below to receive your free PDF guide directly to
                         your inbox. Start your journey
                         to better financial habits today.</p>
-                    <form class="get-section__contact-form" name="get-form" autocomplete="off">
+                    <form class="get-section__contact-form" id="get-form" name="get-form" autocomplete="off">
                         <div class="get-section__form-field input">
                             <label class="input__label visually-hidden" for="contact-name"
                             >Name</label
@@ -243,60 +243,30 @@
     <div class="container">
         <div class="footer__container">
             <nav class="footer__nav">
-                <div class="footer__logo">
-                    <a href="#">
-                        <img
-                                src="public/images/logo.svg"
-                                alt="Логотип сучасної пекарні"
-                        />
+                <div class="footer__logo logo">
+                    <img class="logo__img" src="public/images/logo.svg" alt="Logo">
+                    <a class="logo__link link" href="/">
+                        Book
                     </a>
                 </div>
                 <ul class="footer__menu">
-                    <li><a class="link" href="#traditions-section">Наші традиції</a></li>
-                    <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
-                    <li><a class="link" href="#formats-section">Формати</a></li>
-                    <li><a class="link" href="#contact-section">Контакти</a></li>
+                    <li>
+                        <a class="link" href="#about">About</a>
+                    </li>
+                    <li><a class="link" href="#faq">FAQ</a></li>
+                    <li><a class="link" href="#reviews">Reviews</a></li>
+                    <li><a class="link" href="#get">Get the Book</a></li>
                 </ul>
             </nav>
             <address class="footer__address">
-                <div class="footer__address-contacts">
-                    <ul class="footer__address-list">
-                        <li>
-                            <a class="footer__address-link" href="tel:+380960000007">
-                                + 38 (096) 000 00 07
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__address-link" href="mailto:shopbakery@gmail.com">
-                                shopbakery@gmail.com
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__address-link"
-                               href="https://maps.app.goo.gl/SvD66bGZupn16T4t5"
-                               target="_blank">
-                                Україна, м. Київ, вул. Січових Стрільців 54
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer__socials">
-                        <a href="#">
-                            <svg class="footer__socials-icon" width="32" height="32">
-                                <use href="../public/images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                        <a href="#">
-                            <svg class="footer__socials-icon" width="32" height="32">
-                                <use href="../public/images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
                 <div class="footer__address-info">
-                    <a class="footer__address-link" href="#" target="_blank"
-                    >Політика конфіденційності</a
-                    >
-                    <p class="footer__address-copyright">© 2022 Дані захищені</p>
+                    <a class="footer__address-link" href="privacy-policy.html" target="_blank"
+                    >The privacy policy</a>
+                    <a class="footer__address-link" href="cookies.html" target="_blank"
+                    >Cookies</a>
+                    <a class="footer__address-link" href="terms.html" target="_blank"
+                    >Terms</a>
+                    <p class="footer__address-copyright">© 2025 FreeBook Inc.</p>
                 </div>
             </address>
         </div>
